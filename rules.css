@@ -1,0 +1,13 @@
+/** @format */
+.content p {
+  font-size: 1.1rem;
+}
+
+img {
+  height: 40vh;
+}
+
+figure {
+  margin: 0;
+  margin-bottom: 2em;
+}

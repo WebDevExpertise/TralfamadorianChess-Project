@@ -1,0 +1,176 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tralfamadorian Chess</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="rules.css" />
+  </head>
+  <body>
+    <div class="slideshow">
+      <div class="slide active">
+        <div class="content">
+          <figure>
+            <img
+              src="images/fifteenMoveDiagram.PNG"
+              alt="Diagram Demonstrating the Rule"
+            />
+            <figcaption>
+              With the double-move advantage, White can hypothetically move the
+              light-squared bishop on b5 to e3 and their knight on g5 to h7.
+            </figcaption>
+          </figure>
+          <p>
+            Every fifteen moves, the flow of the game shifts dramatically as one
+            player is granted two consecutive moves; this leaves their opponent
+            momentarily powerless without choice. The player who receives this
+            advantage is decided at the beginning of the game, and both players
+            are informed; the player with this advantage alternates. The same
+            piece does not need to be moved on both moves.
+          </p>
+          <div class="buttons">
+            <button class="prev">Go Back</button>
+            <button class="next">Next</button>
+          </div>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="content">
+          <figure>
+            <img
+              src="images/drawDiagram.PNG"
+              alt="Diagram Demonstrating the Rule"
+            />
+            <figcaption>
+              For example, in a drawn game with insufficient material, if Black
+              last had the double-move advantage, White wins.
+            </figcaption>
+          </figure>
+          <p>
+            Stalemates and other forms of draws are a thing of the past (for
+            Earthlings) since the game always concludes with a definitive
+            result. If a game ends in a tie, the player last granted the
+            double-move advantages loses. Now, there is no safe way out of a
+            game—a drastic difference from any Earthly rules.
+          </p>
+          <div class="buttons">
+            <button class="prev">Previous</button>
+            <button class="next">Next</button>
+          </div>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="content">
+          <figure>
+            <img
+              src="images/pawnPromotionDiagram.PNG"
+              alt="Diagram Demonstrating the Rule"
+            />
+            <figcaption>
+              With only a king in the position, White can promote to any piece.
+            </figcaption>
+          </figure>
+          <p>
+            The player promoting a pawn can only turn the pawn into a piece that
+            has already been captured. As a result, a player cannot have two
+            queens or more than two knights, bishops, or rooks on the board
+            simultaneously. According to Tralfamadorians, when pieces are
+            captured, they are not actually gone from the position; they exist
+            in other positions. Or at least, so it goes.
+          </p>
+          <div class="buttons">
+            <button class="prev">Previous</button>
+            <button class="next">Next</button>
+          </div>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="content">
+          <figure>
+            <img
+              src="images/undoOneMoveDiagram.PNG"
+              alt="Diagram Demonstrating the Rule"
+            />
+            <figcaption>
+              If White moved their knight from g1 to f3 on their previous move,
+              they can return it to g1 and make another move.
+            </figcaption>
+          </figure>
+          <p>
+            Thrice per game, each player can undo their previous move without
+            wasting their move. Again, the player brings back a previous
+            position because the previous position has happened, is happening,
+            and will always happen.
+          </p>
+          <div class="buttons">
+            <button class="prev">Previous</button>
+            <button class="next">Next</button>
+          </div>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="content">
+          <figure>
+            <img
+              src="images/twoMoveCaptureDiagram.PNG"
+              alt="Diagram Demonstrating the Rule"
+            />
+            <figcaption>
+              The White knight on g1 can capture the Black pawn on e5 via f3.
+              This would not have been possible if there was a piece on f3.
+            </figcaption>
+          </figure>
+          <p>
+            Once per game, each player can play what is known as a
+            Tralfamadorian Capture. Players can capture any opponent piece that
+            is two moves away; however, this ability is not possible if there is
+            another enemy piece along its path.
+          </p>
+          <div class="buttons">
+            <button class="prev">Previous</button>
+            <button class="next">Credits</button>
+          </div>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="content">
+          <h1>Credits</h1>
+          <p>Project by</p>
+          <div class="buttons">
+            <button class="prev">Previous</button>
+            <button class="next">Sources</button>
+          </div>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="content">
+          <h1>Works Cited</h1>
+          <p>
+            Vonnegut, Kurt.
+            <cite
+              >Slaughterhouse-Five, or the Children’s Crusade: A Duty-Dance With
+              Death</cite
+            >. 1969, ci.nii.ac.jp/ncid/BA09943991.
+          </p>
+          <p>
+            Source Code:
+            <a
+              href="https://github.com/WebDevExpertise/TralfamadorianChess-Project"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://github.com/WebDevExpertise/TralfamadorianChess-Project</a
+            >
+          </p>
+          <div class="buttons">
+            <button class="prev">Previous</button>
+            <button class="next">Review Rules</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="rules.js"></script>
+  </body>
+</html>
