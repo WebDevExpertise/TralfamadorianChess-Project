@@ -1,8 +1,3 @@
-/**
- * Basic Reset, Font Setting, and Background
- *
- * @format
- */
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 body,
@@ -19,7 +14,6 @@ html {
   text-align: center;
 }
 
-/* Overlay to Enhance Readability */
 body::before {
   content: "";
   position: absolute;
@@ -32,11 +26,10 @@ body::before {
     5,
     25,
     0.75
-  ); /* Dark blue overlay for better text contrast */
+  );
   z-index: -1;
 }
 
-/* Slideshow Container */
 .slideshow {
   display: flex;
   align-items: center;
@@ -44,7 +37,6 @@ body::before {
   height: 100%;
 }
 
-/* Individual Slide Styling */
 .slide {
   position: absolute;
   width: 75%;
@@ -56,7 +48,7 @@ body::before {
     0,
     0,
     0.45
-  ); /* Semi-transparent black for better legibility */
+  );
   border-radius: 20px;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
   transition: all 0.75s;
@@ -74,21 +66,20 @@ img {
 }
 
 .slide.active {
-  transform: scale(1); /* Active slides are fully visible and scaled up */
+  transform: scale(1);
 }
 
-/* Text Styling within Slides */
 .content h1 {
   font-size: 2.3rem;
-  color: #00c6ff; /* A vibrant blue to enhance futuristic vibes */
+  color: #00c6ff;
   margin-bottom: 1em;
 }
 
 .content p {
   font-size: 1.2rem;
   line-height: 1.8;
-  color: #ffffff; /* White for maximum contrast */
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6); /* Text shadow for legibility */
+  color: #ffffff;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
 }
 
 button,
@@ -106,18 +97,6 @@ button:visited {
   padding: 0.8em;
   text-align: center;
   transition: 0.25s box-shadow, 0.25s transform;
-  /* position: relative;
-  cursor: pointer;
-  font-size: 1.1rem;
-  font-weight: bold;
-  color: #ffffff;
-  border: none;
-  border-radius: 30px;
-  padding: 12px 30px;
-  margin-top: 25px;
-  background: linear-gradient(to right, #0072ff, #00c6ff);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
-  transition: background 0.3s, transform 0.2s; */
 }
 
 button:hover {
@@ -138,11 +117,6 @@ button:hover {
   justify-content: space-between;
 }
 
-/* button:hover {
-  background: linear-gradient(to right, #00c6ff, #0072ff);
-  transform: translateY(-3px);
-} */
-
 button:active {
   transform: translateY(1px);
 }
@@ -156,10 +130,9 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Responsive Design Adjustments */
 @media (max-width: 768px) {
   .content h1 {
-    font-size: 2rem; /* Smaller font size for smaller screens */
+    font-size: 2rem;
   }
 
   .content p {
